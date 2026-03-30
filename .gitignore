@@ -26,6 +26,10 @@ chroma_db/
 .vscode/
 .idea/
 
+# Environment variables
+.env
+.env.*
+
 # OS
 .DS_Store
 Thumbs.db
