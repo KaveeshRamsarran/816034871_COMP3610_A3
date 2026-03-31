@@ -39,3 +39,13 @@ This project integrates distributed data processing with PySpark, a Retrieval-Au
 - NYC Yellow Taxi January 2024 trip data (Parquet)
 - NYC Taxi Zone Lookup (CSV)
 - NYC transportation policy PDFs (downloaded programmatically)
+
+## AI Tools Used
+
+GitHub Copilot was used in a supporting role during development. Below are selected examples:
+
+- **Spark configuration**: Consulted Copilot for recommended SparkSession settings (AQE, memory allocation for local mode).
+- **Data cleaning filters**: Used Copilot to draft PySpark filter conditions for removing records with negative fares and zero-distance trips.
+- **ChromaDB integration**: Copilot assisted with the syntax for creating a ChromaDB collection and inserting embeddings with metadata.
+- **RAG prompt design**: Got suggestions for structuring the grounded prompt template that restricts the LLM to retrieved context only.
+- **SQL debugging**: Used Copilot to help diagnose and fix issues in LLM-generated Spark SQL (e.g., wrong column names, unsupported syntax).
